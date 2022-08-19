@@ -1,0 +1,294 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    ip-0A66A10A (AVX512, FMA3, 15 GB RAM)
+Command: /shared/home/mbxlw2/indiv_pro_iqtree/iqtree-1.6.12-Linux/bin/iqtree -s /shared/home/mbxlw2/indiv_pro_alignments/113_indiv_no_test_gap_align.fasta -m GTR+G -bb 1000
+Seed:    251456 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Aug 11 11:27:34 2022
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /shared/home/mbxlw2/indiv_pro_alignments/113_indiv_no_test_gap_align.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 114 sequences with 154812 columns, 22371 distinct patterns
+58622 parsimony-informative, 12444 singleton sites, 83746 constant sites
+             Gap/Ambiguity  Composition  p-value
+   1  LAB_004        0.00%    failed      0.00%
+   2  WOL_010       16.26%    passed     94.05%
+   3  WOL_006       16.26%    passed     93.00%
+   4  WOL_002       16.29%    passed     94.11%
+   5  VEG_004       17.94%    passed     54.91%
+   6  VEG_003        0.07%    failed      0.00%
+   7  VAG_102       16.21%    passed     79.06%
+   8  VAG_007       16.21%    passed     79.06%
+   9  VAG_004       16.21%    passed     79.06%
+  10  VAG_003       16.21%    passed     79.10%
+  11  TRO_009       18.07%    passed     57.77%
+  12  TRO_005       16.31%    passed     95.39%
+  13  TRO_003       16.31%    passed     95.39%
+  14  TRO_001       18.07%    passed     57.75%
+  15  NC_000932.1   18.50%    passed     37.42%
+  16  TET_008       17.99%    passed     77.96%
+  17  TET_006       16.13%    passed     73.93%
+  18  TET_004       16.12%    passed     84.29%
+  19  TET_002       16.13%    passed     73.93%
+  20  SPU_010       17.99%    passed     77.96%
+  21  SPU_009       16.12%    passed     84.29%
+  22  SPU_008       17.99%    passed     77.96%
+  23  SPU_006       17.99%    passed     77.96%
+  24  SKN_008        0.02%    failed      0.00%
+  25  SKN_005       16.13%    passed     77.02%
+  26  SKI_005       18.09%    passed     72.26%
+  27  SKI_004       18.01%    passed     73.42%
+  28  SKF_009       16.13%    passed     73.93%
+  29  SKF_005       17.99%    passed     77.96%
+  30  SKF_003       17.88%    passed     71.29%
+  31  SKF_002       17.99%    passed     77.96%
+  32  scu_19        16.18%    passed     81.69%
+  33  scu_16        18.04%    passed     65.58%
+  34  scu_15        18.04%    passed     65.58%
+  35  scu_14        16.20%    passed     85.65%
+  36  sco_1         18.00%    passed     78.67%
+  37  SAl_006       17.88%    passed     74.86%
+  38  SAL_004       16.15%    passed     78.30%
+  39  SAL_003       16.15%    passed     78.30%
+  40  rye_1         18.03%    passed     72.27%
+  41  RUZ_001       17.99%    passed     65.08%
+  42  ROT_013        0.02%    failed      0.00%
+  43  ROT_007       29.32%    failed      0.59%
+  44  osw_9         18.00%    passed     77.40%
+  45  osw_8         18.00%    passed     77.40%
+  46  osw_7         16.13%    passed     74.63%
+  47  osw_6         16.13%    passed     74.63%
+  48  osw_3         16.13%    passed     74.63%
+  49  osw_2         18.00%    passed     77.40%
+  50  osw_1         17.98%    passed     68.34%
+  51  odn_10        16.24%    passed     88.67%
+  52  odn_9         17.98%    passed     68.00%
+  53  odn_7         17.94%    passed     72.88%
+  54  odn_6         17.94%    passed     72.88%
+  55  odn_4         16.20%    passed     88.27%
+  56  odn_2         17.98%    passed     68.34%
+  57  odn_1         16.13%    passed     74.63%
+  58  nen_6         17.93%    passed     64.73%
+  59  nen_5         16.16%    passed     89.66%
+  60  nen_4         16.29%    passed     86.46%
+  61  NEN_003       18.07%    passed     70.92%
+  62  NEN_001        0.01%    failed      0.00%
+  63  nei_9         17.93%    passed     61.36%
+  64  nei_8         17.93%    passed     61.36%
+  65  nei_3         16.23%    passed     95.89%
+  66  nei_1         16.22%    passed     93.93%
+  67  MEL_002       18.06%    passed     68.13%
+  68  MEL_001       16.17%    passed     88.04%
+  69  los_7         16.23%    passed     95.24%
+  70  los_2         16.26%    passed     90.69%
+  71  LNL_003       18.03%    passed     75.45%
+  72  LNL_001       17.94%    passed     63.48%
+  73  KVA_010       16.25%    passed     91.62%
+  74  KVA_009       16.25%    passed     91.62%
+  75  KVA_003       16.25%    passed     91.62%
+  76  KVA_002       16.27%    passed     96.04%
+  77  jor_13        16.23%    passed     95.31%
+  78  jor_12        17.93%    passed     62.85%
+  79  jor_3         16.23%    passed     95.31%
+  80  jor_1         16.23%    passed     95.31%
+  81  gre_4         16.17%    passed     87.87%
+  82  gre_3         16.13%    passed     77.17%
+  83  gre_2         18.00%    passed     75.97%
+  84  gre_1         16.17%    passed     87.87%
+  85  ftw_5         16.22%    passed     93.75%
+  86  ftw_3         18.01%    passed     67.24%
+  87  ftw_2         17.93%    passed     63.81%
+  88  ftw_1         18.01%    passed     67.24%
+  89  ers_4         16.22%    passed     94.01%
+  90  ers_3         18.05%    passed     81.87%
+  91  ers_2         17.94%    passed     63.18%
+  92  ers_1         17.93%    passed     63.48%
+  93  dar_3         18.00%    passed     78.64%
+  94  dar_1         16.14%    passed     84.16%
+  95  cum_1         18.01%    passed     77.33%
+  96  cht_5         16.13%    passed     76.83%
+  97  cht_3         16.13%    passed     76.95%
+  98  cht_2         16.13%    passed     76.95%
+  99  cht_1         17.99%    passed     80.19%
+ 100  cha_2         17.95%    passed     69.88%
+ 101  cha_1         17.95%    passed     72.15%
+ 102  BRI_009       17.94%    passed     73.12%
+ 103  BRI_006       16.17%    passed     88.01%
+ 104  BRI_005       17.94%    passed     73.12%
+ 105  BRI_002       17.94%    passed     73.12%
+ 106  bre_1_2       18.00%    passed     78.43%
+ 107  bre_1         18.00%    passed     78.43%
+ 108  bnk_21        16.23%    passed     94.17%
+ 109  bea_010       16.14%    passed     83.47%
+ 110  BEA_004       16.14%    passed     83.58%
+ 111  ALO_17        31.04%    failed      4.86%
+ 112  ALO_13        29.34%    failed      0.97%
+ 113  aah_3         16.22%    passed     93.92%
+ 114  aah_2         17.94%    passed     64.21%
+****  TOTAL         16.68%  8 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: minimal branch length is reduced to 0.000000645945 for long alignment
+NOTE: VAG_007 is identical to VAG_102 but kept for subsequent analysis
+NOTE: TRO_003 is identical to TRO_005 but kept for subsequent analysis
+NOTE: SPU_010 is identical to TET_008 but kept for subsequent analysis
+NOTE: TET_002 is identical to TET_006 but kept for subsequent analysis
+NOTE: SPU_009 is identical to TET_004 but kept for subsequent analysis
+NOTE: scu_15 is identical to scu_16 but kept for subsequent analysis
+NOTE: SAL_003 is identical to SAL_004 but kept for subsequent analysis
+NOTE: osw_8 is identical to osw_9 but kept for subsequent analysis
+NOTE: osw_6 is identical to osw_7 but kept for subsequent analysis
+NOTE: odn_2 is identical to osw_1 but kept for subsequent analysis
+NOTE: odn_6 is identical to odn_7 but kept for subsequent analysis
+NOTE: nei_8 is identical to nei_9 but kept for subsequent analysis
+NOTE: KVA_009 is identical to KVA_010 but kept for subsequent analysis
+NOTE: jor_3 is identical to jor_13 but kept for subsequent analysis
+NOTE: gre_1 is identical to gre_4 but kept for subsequent analysis
+NOTE: ftw_1 is identical to ftw_3 but kept for subsequent analysis
+NOTE: cht_2 is identical to cht_3 but kept for subsequent analysis
+NOTE: BRI_005 is identical to BRI_009 but kept for subsequent analysis
+NOTE: bre_1 is identical to bre_1_2 but kept for subsequent analysis
+NOTE: 12 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: VAG_004 (identical to VAG_102) is ignored but added at the end
+NOTE: SPU_008 (identical to TET_008) is ignored but added at the end
+NOTE: SPU_006 (identical to TET_008) is ignored but added at the end
+NOTE: SKF_005 (identical to TET_008) is ignored but added at the end
+NOTE: SKF_002 (identical to TET_008) is ignored but added at the end
+NOTE: SKF_009 (identical to TET_006) is ignored but added at the end
+NOTE: osw_2 (identical to osw_9) is ignored but added at the end
+NOTE: osw_3 (identical to osw_7) is ignored but added at the end
+NOTE: odn_1 (identical to osw_7) is ignored but added at the end
+NOTE: KVA_003 (identical to KVA_010) is ignored but added at the end
+NOTE: jor_1 (identical to jor_13) is ignored but added at the end
+NOTE: BRI_002 (identical to BRI_009) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to /shared/home/mbxlw2/indiv_pro_alignments/113_indiv_no_test_gap_align.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.521 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 251456)...
+
+NOTE: 381 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -1069054.122
+2. Current log-likelihood: -1037660.641
+3. Current log-likelihood: -1035001.252
+4. Current log-likelihood: -1034577.622
+5. Current log-likelihood: -1034155.938
+6. Current log-likelihood: -1033822.712
+7. Current log-likelihood: -1033669.072
+8. Current log-likelihood: -1033610.027
+9. Current log-likelihood: -1033587.869
+10. Current log-likelihood: -1033579.855
+11. Current log-likelihood: -1033577.014
+12. Current log-likelihood: -1033575.932
+13. Current log-likelihood: -1033575.518
+14. Current log-likelihood: -1033575.354
+Optimal log-likelihood: -1033575.298
+Rate parameters:  A-C: 1.03819  A-G: 2.09093  A-T: 1.24308  C-G: 0.88049  C-T: 2.11018  G-T: 1.00000
+Base frequencies:  A: 0.319  C: 0.181  G: 0.178  T: 0.322
+Gamma shape alpha: 0.200
+Parameters optimization took 14 rounds (71.765 sec)
+Computing ML distances based on estimated model parameters... 3.853 sec
+Computing BIONJ tree...
+0.029 seconds
+Log-likelihood of BIONJ tree: -1042419.684
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 58.929 second
+Computing log-likelihood of 98 initial trees ... 90.502 seconds
+Current best score: -1024269.558
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -1023105.031
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -1022895.325
+Iteration 10 / LogL: -1023696.594 / Time: 0h:7m:7s
+Iteration 20 / LogL: -1024588.967 / Time: 0h:9m:39s
+Finish initializing candidate tree set (8)
+Current best tree score: -1022895.325 / CPU time: 492.798
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -1022796.789
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -1022601.160
+Iteration 30 / LogL: -1022601.160 / Time: 0h:12m:36s (0h:43m:25s left)
+Iteration 40 / LogL: -1032900.001 / Time: 0h:15m:12s (0h:35m:3s left)
+Iteration 50 / LogL: -1028808.920 / Time: 0h:17m:38s (0h:28m:47s left)
+Log-likelihood cutoff on original alignment: -1022972.168
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 57: -1022487.062
+Iteration 60 / LogL: -1022626.934 / Time: 0h:20m:13s (0h:33m:13s left)
+Iteration 70 / LogL: -1022491.507 / Time: 0h:22m:48s (0h:28m:44s left)
+Iteration 80 / LogL: -1042448.110 / Time: 0h:25m:26s (0h:24m:47s left)
+Iteration 90 / LogL: -1022495.944 / Time: 0h:28m:10s (0h:21m:12s left)
+Iteration 100 / LogL: -1028340.283 / Time: 0h:30m:46s (0h:17m:42s left)
+Log-likelihood cutoff on original alignment: -1022709.028
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.923
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -1025201.923 / Time: 0h:33m:23s (0h:27m:34s left)
+Iteration 120 / LogL: -1025154.027 / Time: 0h:35m:53s (0h:24m:7s left)
+Iteration 130 / LogL: -1022489.695 / Time: 0h:38m:36s (0h:20m:56s left)
+Iteration 140 / LogL: -1022494.184 / Time: 0h:41m:39s (0h:17m:58s left)
+Iteration 150 / LogL: -1022491.278 / Time: 0h:44m:19s (0h:14m:52s left)
+Log-likelihood cutoff on original alignment: -1022700.620
+Iteration 160 / LogL: -1022489.744 / Time: 0h:47m:8s (0h:11m:51s left)
+Iteration 170 / LogL: -1026479.917 / Time: 0h:49m:53s (0h:8m:51s left)
+Iteration 180 / LogL: -1032797.242 / Time: 0h:52m:35s (0h:5m:52s left)
+UPDATE BEST LOG-LIKELIHOOD: -1022487.060
+Iteration 190 / LogL: -1024509.533 / Time: 0h:55m:24s (0h:2m:55s left)
+Iteration 200 / LogL: -1045549.477 / Time: 0h:58m:1s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -1022700.620
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+TREE SEARCH COMPLETED AFTER 200 ITERATIONS / Time: 0h:58m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1022487.060
+2. Current log-likelihood: -1022487.028
+3. Current log-likelihood: -1022487.015
+4. Current log-likelihood: -1022487.004
+Optimal log-likelihood: -1022486.993
+Rate parameters:  A-C: 1.04353  A-G: 2.10425  A-T: 1.23835  C-G: 0.88971  C-T: 2.12391  G-T: 1.00000
+Base frequencies:  A: 0.319  C: 0.181  G: 0.178  T: 0.322
+Gamma shape alpha: 0.220
+Parameters optimization took 4 rounds (11.145 sec)
+BEST SCORE FOUND : -1022486.993
+Creating bootstrap support values...
+Split supports printed to NEXUS file /shared/home/mbxlw2/indiv_pro_alignments/113_indiv_no_test_gap_align.fasta.splits.nex
+Total tree length: 4.786
+
+Total number of iterations: 200
+CPU time used for tree search: 3390.924 sec (0h:56m:30s)
+Wall-clock time used for tree search: 3394.626 sec (0h:56m:34s)
+Total CPU time used: 3489.198 sec (0h:58m:9s)
+Total wall-clock time used: 3493.167 sec (0h:58m:13s)
+
+Computing bootstrap consensus tree...
+Reading input file /shared/home/mbxlw2/indiv_pro_alignments/113_indiv_no_test_gap_align.fasta.splits.nex...
+102 taxa and 309 splits.
+Consensus tree written to /shared/home/mbxlw2/indiv_pro_alignments/113_indiv_no_test_gap_align.fasta.contree
+Reading input trees file /shared/home/mbxlw2/indiv_pro_alignments/113_indiv_no_test_gap_align.fasta.contree
+Log-likelihood of consensus tree: -1022486.515
+
+Analysis results written to: 
+  IQ-TREE report:                /shared/home/mbxlw2/indiv_pro_alignments/113_indiv_no_test_gap_align.fasta.iqtree
+  Maximum-likelihood tree:       /shared/home/mbxlw2/indiv_pro_alignments/113_indiv_no_test_gap_align.fasta.treefile
+  Likelihood distances:          /shared/home/mbxlw2/indiv_pro_alignments/113_indiv_no_test_gap_align.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /shared/home/mbxlw2/indiv_pro_alignments/113_indiv_no_test_gap_align.fasta.splits.nex
+  Consensus tree:                /shared/home/mbxlw2/indiv_pro_alignments/113_indiv_no_test_gap_align.fasta.contree
+  Screen log file:               /shared/home/mbxlw2/indiv_pro_alignments/113_indiv_no_test_gap_align.fasta.log
+
+Date and Time: Thu Aug 11 12:26:01 2022
