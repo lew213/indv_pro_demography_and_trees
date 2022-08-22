@@ -37,7 +37,6 @@ library(msa)
 ######################=========MODIFIED FUNCTIONS=========######################
 
 # a function for conversion from vcfR object to genlight in tetraploids
-##Levi##: note not all of this is necessary for LIFE4136 project, but some is helpful
 vcfR2genlight.tetra <- function (x, n.cores = 1) 
 {
   bi <- is.biallelic(x)
@@ -199,11 +198,8 @@ glPcaFast <- function(x,
 ######################====================================######################
 
 # IMPORT SNP data from VCF
-# nrow = number of SNPs to read in
 filename <- readline(prompt="Enter file full path and name file (example ~/Desktop/intermidiate.vcf: ")
 vcf <- read.vcfR(filename, nrows=10000)
-
-
 
 # convert to genlight 	
 aa.genlight <- vcfR2genlight.tetra(vcf)
@@ -225,7 +221,6 @@ which(toRemove) # position of entirely non-typed loci
 aa.genlight_correct <- aa.genlight[, !toRemove]
 
 #run PCA
-# this uses the modified function glPcaFast to run faster!
 pca.1 <- glPcaFast(aa.genlight_correct, nf=300)
 
 #Plotting PCA
@@ -245,7 +240,6 @@ pca.1$eig[7]/sum(pca.1$eig) # proportion of variation explained by 7th axis
 #there are only 3 variables (genotype: 00 / 01-10 / 11) when doing PCA genomics you only focus on PCA1 and PCA2
 ## ----
 
-# just to see pops coloured in a palette
 col <- funky(41) #total locations n 
 #compare pcas 1 and 2 and check graph settings 
 s.class(pca.1$scores, pop(aa.genlight),  xax=1, yax=2, col=transp(col,1),
@@ -269,7 +263,6 @@ ADEgS(c(g1, g2), layout = c(1, 2))
 dev.off()
 
 #making nj trees
-#first we start by doing a NJ tree
 NJtree <- nj(dist(as.matrix(aa.genlight_correct)))
 NJtree
 
